@@ -2,11 +2,32 @@
  * This is optional but reasonably complete and allows for light/dark mode switching.
  */
 @import url("../uibuilder/uib-brand.min.css");
+
 .default_tile {
+    fill: grey
+}
+
+.dry_tile {
+    fill: yellow
+}
+
+.humid_tile {
     fill: green
 }
 
-.selected_tile {
-    fill: red
+.irrigated_tile{
+    fill: blue
 }
+
+.highlight-rectangle {
+    stroke: red !important;
+    stroke-width: 3px !important;
+}
+
+.highlight-row {
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
+
 
